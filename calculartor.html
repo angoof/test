@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máy tính tính chậm</title>
+    <link rel="stylesheet" href="style/calculator.css" />
+</head>
+<body>
+    <div id="khung">
+       <input type="text" id="kq" />
+
+       <br/>
+       <input type='button' class="poison" value='AC' onclick='AC()'/>
+       <input type='button' class="poison" value='DEL' onclick=' DEL()'/>
+       <input type='button' class="poison" value='%' onclick='calculate(this.value)'/>
+       <input type='button' class="poison" value='+' onclick='calculate(this.value)'/>
+       <br/>
+       <input type='button' class="poison" value='7' onclick='calculate(this.value)'/>
+       <input type='button' class="poison" value='8' onclick='calculate(this.value)'/>
+       <input type='button' class="poison" value='9' onclick='calculate(this.value)'/>
+       <input type='button' class="poison" value='-' onclick='calculate(this.value)'/>
+       <br/>
+       <input type='button' class="poison" value='4' onclick='calculate(this.value)'/>
+       <input type='button' class="poison" value='5' onclick='calculate(this.value)'/>
+       <input type='button' class="poison" value='6' onclick='calculate(this.value)'/>
+       <input type='button' class="poison" value='*' onclick='calculate(this.value)'/>
+       <br/>
+       <input type='button' class="poison" value='1' onclick='calculate(this.value)'/>
+       <input type='button' class="poison" value='2' onclick='calculate(this.value)'/>
+       <input type='button' class="poison" value='3' onclick='calculate(this.value)'/>
+       <input type='button' class="poison" value='/' onclick='calculate(this.value)'/>
+       <br/>
+       <input type='button' class="poison" value='0' onclick='calculate(this.value)'/>
+       <div>
+            <input type='button' class="half" value='(' onclick='calculate(this.value)'/>
+            <input type='button' class="half" value=')' onclick='calculate(this.value)'/>
+       </div>
+       <input type='button' class="poison" value='.' onclick='calculate(this.value)'/>
+       <input type='button' class="poison" value='=' onclick='result()'/>
+       
+    </div>
+    <script src="script/calculator.js"></script>
+</body>
+</html>

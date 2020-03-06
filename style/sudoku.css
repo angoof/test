@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+
+}
+
+td > input {
+    border: 0;
+    min-width: 0;
+    width: 30px;
+    height: 30px;
+    font-size:16px;
+    text-align: center;
+}
+textarea{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+
+
+}

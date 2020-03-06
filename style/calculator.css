@@ -1,0 +1,57 @@
+body{
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+    border-color: ghostwhite;
+    padding: 150px 0px 0px 150px ;
+}
+
+#khung{
+    margin:0px;
+    padding: 20px;
+    border: 3px solid black;
+    background-color:blanchedalmond;
+    width: 305px;
+    height: 350px;
+}
+ 
+.clear{
+    clear: both;
+}
+
+.poison{
+    margin: 0px 15px 15px 0px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: slategray;
+    color: snow;
+    border: 2px double green;
+    width: 60px;
+}
+
+.button.first{
+    margin-left: 0px;
+}
+
+
+#kq{
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: right;
+    width: 277px;
+    font-size: 25px;
+}
+.half{
+    margin: 0px 15px 5px 0px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: slategray;
+    color: snow;
+    border: 2px double green;
+    width: 3px;
+
+}
